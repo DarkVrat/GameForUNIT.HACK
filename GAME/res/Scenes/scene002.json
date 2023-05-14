@@ -1,0 +1,29 @@
+{
+	"soundEffect":{
+		"nameSound" : "mainThema",
+		"nameSample":"Music"
+	},
+	
+	"map":{
+		"mapPath" : "res/Scenes/map002.png",
+		"sizeCell" : 32.0
+	},
+	
+	"Camera":"res/Entityes/Camera_1.json",
+	"MainCharacter":"res/Entityes/mainCharacter_1.json",
+	"MainCharacter_startPos":{"x": 1024,"y": 1024},
+	"Items":"res/Entityes/Items_1.json",
+	"Entity":"res/Entityes/Enemy_1.json",
+	"Projectiles":"res/Entityes/Projectiles_1.json",
+	
+	"scripts":[
+	{	
+		"type":0,
+		"leftBottom":{"x": 1000,"y": 1000},
+		"rightTop":{"x": 1050,"y": 1050},
+		"callback":"dialog str(End);",
+		"onlyMainEntity":true,
+		"disposable":false
+	}
+	]
+}

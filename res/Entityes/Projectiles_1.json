@@ -1,0 +1,53 @@
+{
+	"projectile":[
+	{
+		"ID":0,
+		"type":1,
+		"priceMana":10,
+		"radius":4,
+		"speed":196,
+		"distance": 420,
+		"damage": 5,
+		"DPS":false,
+		"cooldown":0.1,
+		"stateAnim":"FireBall",
+		"nameSound":"fireball"
+	},{
+		"ID":1,
+		"type":1,
+		"priceMana":0,
+		"radius":10,
+		"speed":196,
+		"distance": 64,
+		"damage": 10,
+		"DPS":false,
+		"cooldown":0.4,
+		"stateAnim":"Knife",
+		"nameSound":"sword"
+	},{
+		"ID":2,
+		"type":1,
+		"priceMana":20,
+		"radius":6,
+		"speed":512,
+		"distance": 196,
+		"damage": 20,
+		"DPS":false,
+		"cooldown":0.2,
+		"stateAnim":"Ice",
+		"nameSound":"knife"
+	},{
+		"ID":3,
+		"type":1,
+		"priceMana":1,
+		"radius":16,
+		"speed":128,
+		"distance": 32,
+		"damage": 500,
+		"DPS":true,
+		"cooldown":1,
+		"stateAnim":"Hammer",
+		"nameSound":"hammer"
+	}
+	]
+}

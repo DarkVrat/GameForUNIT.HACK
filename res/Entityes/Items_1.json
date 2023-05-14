@@ -1,0 +1,113 @@
+{
+	"items":[
+	{
+		"ID":0,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_1",
+		"effects":[{
+			"stat":"healt",
+			"value":40
+		}]
+	},{
+		"ID":1,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_2",
+		"effects":[{
+			"stat":"maxHealt",
+			"value":20
+		}]
+	},{
+		"ID":2,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_3",
+		"effects":[{
+			"stat":"regenHealt_Multiply",
+			"value":1.08
+		}]
+	},{
+		"ID":3,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_4",
+		"effects":[{
+			"stat":"mana",
+			"value":40
+		}]
+	},{
+		"ID":4,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_5",
+		"effects":[{
+			"stat":"maxMana",
+			"value":20
+		}]
+	},{
+		"ID":5,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_6",
+		"effects":[{
+			"stat":"regenMana_Multiply",
+			"value":1.08
+		}]
+	},{
+		"ID":6,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_7",
+		"effects":[{
+			"stat":"moveSpeed_Multiply",
+			"value":1.08
+		}]
+	},{
+		"ID":7,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_8",
+		"effects":[{
+			"stat":"Particle_speedMultiply",
+			"value":1.08
+		}]
+	},{
+		"ID":8,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_9",
+		"effects":[{
+			"stat":"Particle_distanceMultiply",
+			"value":1.08
+		}]
+	},{
+		"ID":9,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_10",
+		"effects":[{
+			"stat":"Particle_cooldownMultiply",
+			"value":0.9
+		}]
+	},{
+		"ID":10,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_11",
+		"effects":[{
+			"stat":"Particle_damageMultiply",
+			"value":1.09
+		}]
+	},{
+		"ID":11,
+		"type":0,
+		"size":{"x":10, "y":10},
+		"sprite":"Potion_12",
+		"effects":[{
+			"stat":"healt",
+			"value":-60
+		}]
+	}
+	]
+}

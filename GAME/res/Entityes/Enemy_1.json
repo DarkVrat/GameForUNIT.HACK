@@ -1,0 +1,41 @@
+{
+	"Enemy":[
+	{
+		"ID":0,
+		"type":0,
+		"sizeCollision":{"x": 16,"y": 28},
+		"size":{"x": 34,"y": 46},
+		"healt":100,
+		"mana":150,
+		"startProjectile":0,
+		"speed":32
+	},{
+		"ID":1,
+		"type":0,
+		"sizeCollision":{"x": 16,"y": 28},
+		"size":{"x": 34,"y": 46},
+		"healt":150,
+		"mana":100,
+		"startProjectile":2,
+		"speed":64
+	},{
+		"ID":2,
+		"type":0,
+		"sizeCollision":{"x": 16,"y": 28},
+		"size":{"x": 34,"y": 46},
+		"healt":150,
+		"mana":20,
+		"startProjectile":1,
+		"speed":128
+	},{
+		"ID":3,
+		"type":0,
+		"sizeCollision":{"x": 16,"y": 28},
+		"size":{"x": 34,"y": 46},
+		"healt":200,
+		"mana":1,
+		"startProjectile":3,
+		"speed":16
+	}
+	]
+}

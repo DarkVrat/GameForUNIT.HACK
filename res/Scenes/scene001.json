@@ -1,0 +1,349 @@
+{
+	"soundEffect":{
+		"nameSound" : "cavesAndBoss",
+		"nameSample":"Music"
+	},
+	
+	"map":{
+		"mapPath" : "res/Scenes/map001.png",
+		"sizeCell" : 32.0
+	},
+	
+	"Camera":"res/Entityes/Camera_1.json",
+	"MainCharacter":"res/Entityes/mainCharacter_1.json",
+	"MainCharacter_startPos":{"x": 1024,"y": 32},
+	"Items":"res/Entityes/Items_1.json",
+	"Entity":"res/Entityes/Enemy_1.json",
+	"Projectiles":"res/Entityes/Projectiles_1.json",
+	
+	"Colliders":[
+	{	
+		"type":0,
+		"leftBottom":{"x": 0,"y": 0},
+		"rightTop":{"x": 992,"y": 96}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 0,"y": 96},
+		"rightTop":{"x": 96,"y": 1216}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 0,"y": 1216},
+		"rightTop":{"x": 64,"y": 2048}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 92,"y": 768},
+		"rightTop":{"x": 160,"y": 1216}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 160,"y": 1056},
+		"rightTop":{"x": 544,"y": 1216}
+	},{	
+		"type":0,
+		"leftBottom":{"x":544,"y": 1120},
+		"rightTop":{"x": 1728,"y": 1216}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 1472,"y": 1216},
+		"rightTop":{"x": 1728,"y": 1568}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 64,"y": 1952},
+		"rightTop":{"x": 768,"y": 2048}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 352,"y": 1728},
+		"rightTop":{"x": 768,"y": 2048}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 832,"y": 1728},
+		"rightTop":{"x": 1568,"y": 2048}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 1568,"y": 1952},
+		"rightTop":{"x": 2048,"y": 2048}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 128,"y": 1280},
+		"rightTop":{"x": 384,"y": 1664}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 384,"y": 1280},
+		"rightTop":{"x": 1408,"y": 1440}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 1280,"y": 1440},
+		"rightTop":{"x": 1408,"y": 1728}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 1408,"y": 1600},
+		"rightTop":{"x": 1568,"y": 1728}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 1984,"y": 1568},
+		"rightTop":{"x": 2048,"y": 1952}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 1792,"y": 1120},
+		"rightTop":{"x": 2048,"y": 1568}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 1056,"y": 0},
+		"rightTop":{"x": 2048,"y": 96}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 1952,"y": 96},
+		"rightTop":{"x": 2048,"y": 1200}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 832,"y": 96},
+		"rightTop":{"x": 992,"y": 704}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 992,"y": 160},
+		"rightTop":{"x": 1600,"y": 384}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 224,"y": 768},
+		"rightTop":{"x": 2048,"y": 992}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 1568,"y": 768},
+		"rightTop":{"x": 2048,"y": 896}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 992,"y": 544},
+		"rightTop":{"x": 1856,"y": 704}
+	},{	
+		"type":0,
+		"leftBottom":{"x": 1408,"y": 448},
+		"rightTop":{"x": 1600,"y": 704}
+	}
+	
+	],
+	
+	"scripts":[
+	{	
+		"type":0,
+		"leftBottom":{"x": 700,"y": 2048},
+		"rightTop":{"x": 900,"y": 2096},
+		"callback":"load scene002;",
+		"onlyMainEntity":true,
+		"disposable":false
+	},{	
+		"type":0,
+		"leftBottom":{"x": 1000,"y": 146},
+		"rightTop":{"x": 1001,"y": 147},
+		"callback":"teleport POS(800, 1950);",
+		"onlyMainEntity":true,
+		"disposable":true
+	},{
+		"type":0,
+		"leftBottom":{"x": 1513,"y": 96},
+		"rightTop":{"x": 1590,"y": 160},
+		"callback":"spawn ID(0) POS(1760,442) radius(196) chiken(true) patrol_X[1760, 1760] patrol_Y[442, 150] patrol_time[3, 3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	},{
+		"type":0,
+		"leftBottom":{"x": 1513,"y": 96},
+		"rightTop":{"x": 1590,"y": 160},
+		"callback":"spawn ID(0) POS(1700,442) radius(196) chiken(false) patrol_X[1700, 1700] patrol_Y[442, 150] patrol_time[2, 2];",
+		"onlyMainEntity":true,
+		"disposable":true
+	},{
+		"type":0,
+		"leftBottom":{"x": 1513,"y": 96},
+		"rightTop":{"x": 1590,"y": 160},
+		"callback":"spawn ID(2) POS(1820,442) radius(128) chiken(true) patrol_X[1820, 1820] patrol_Y[442, 150] patrol_time[3, 3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	},{
+		"type":0,
+		"leftBottom":{"x": 1513,"y": 96},
+		"rightTop":{"x": 1590,"y": 160},
+		"callback":"spawn ID(3) POS(1335,473) radius(128) chiken(false) patrol_X[1335] patrol_Y[473] patrol_time[3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	},{
+		"type":0,
+		"leftBottom":{"x": 820,"y": 700},
+		"rightTop":{"x": 920,"y": 800},
+		"callback":"spawn ID(1) POS(473,515) radius(128) chiken(false) patrol_X[473] patrol_Y[515] patrol_time[3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	}
+	,{
+		"type":0,
+		"leftBottom":{"x": 820,"y": 700},
+		"rightTop":{"x": 920,"y": 800},
+		"callback":"spawn ID(2) POS(430,515) radius(128) chiken(false) patrol_X[430] patrol_Y[515] patrol_time[3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	}
+	,{
+		"type":0,
+		"leftBottom":{"x": 820,"y": 700},
+		"rightTop":{"x": 920,"y": 800},
+		"callback":"spawn ID(3) POS(380,515) radius(128) chiken(false) patrol_X[380] patrol_Y[515] patrol_time[3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	}
+	,{
+		"type":0,
+		"leftBottom":{"x": 820,"y": 700},
+		"rightTop":{"x": 920,"y": 800},
+		"callback":"spawn ID(0) POS(340,515) radius(128) chiken(false) patrol_X[340] patrol_Y[515] patrol_time[3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	}
+	,{
+		"type":0,
+		"leftBottom":{"x": 820,"y": 700},
+		"rightTop":{"x": 920,"y": 800},
+		"callback":"spawn ID(2) POS(300,515) radius(128) chiken(false) patrol_X[300] patrol_Y[515] patrol_time[3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	}
+	,{
+		"type":0,
+		"leftBottom":{"x": 820,"y": 700},
+		"rightTop":{"x": 920,"y": 800},
+		"callback":"spawn ID(3) POS(240,515) radius(128) chiken(false) patrol_X[240] patrol_Y[515] patrol_time[3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	},{
+		"type":0,
+		"leftBottom":{"x": 1640,"y": 1000},
+		"rightTop":{"x": 1680,"y": 1200},
+		"callback":"spawn ID(3) POS(1929,1100) radius(128) chiken(false) patrol_X[1600] patrol_Y[1100] patrol_time[3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	},{
+		"type":0,
+		"leftBottom":{"x": 1640,"y": 1000},
+		"rightTop":{"x": 1680,"y": 1200},
+		"callback":"spawn ID(3) POS(1929,1075) radius(128) chiken(false) patrol_X[1600] patrol_Y[1075] patrol_time[3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	},{
+		"type":0,
+		"leftBottom":{"x": 1640,"y": 1000},
+		"rightTop":{"x": 1680,"y": 1200},
+		"callback":"spawn ID(3) POS(1929,1050) radius(128) chiken(false) patrol_X[1600] patrol_Y[1050] patrol_time[3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	},{
+		"type":0,
+		"leftBottom":{"x": 1640,"y": 1000},
+		"rightTop":{"x": 1680,"y": 1200},
+		"callback":"spawn ID(3) POS(1929,1025) radius(128) chiken(false) patrol_X[1600] patrol_Y[1025] patrol_time[3];",
+		"onlyMainEntity":true,
+		"disposable":true
+	},{	
+		"type":0,
+		"leftBottom":{"x": 140,"y": 1200},
+		"rightTop":{"x": 160,"y": 1300},
+		"callback":"teleport POS(500, 1250);",
+		"onlyMainEntity":true,
+		"disposable":true
+	},{	
+		"type":0,
+		"leftBottom":{"x": 140,"y": 1200},
+		"rightTop":{"x": 170,"y": 1300},
+		"callback":"teleport POS(500, 1250);",
+		"onlyMainEntity":true,
+		"disposable":true
+	}
+	],
+	
+	
+	
+	"itemsOnScene":[
+	{	
+		"ID":0,
+		"position":{"x": 1023,"y": 473}
+	},{	
+		"ID":1,
+		"position":{"x": 1018,"y": 460}
+	},{	
+		"ID":4,
+		"position":{"x": 1026,"y": 480}
+	},{	
+		"ID":6,
+		"position":{"x": 1035,"y": 453}
+	},{	
+		"ID":2,
+		"position":{"x": 1762,"y": 1900}
+	},{	
+		"ID":3,
+		"position":{"x": 1750,"y": 1920}
+	},{	
+		"ID":9,
+		"position":{"x": 1730,"y": 1900}
+	},{	
+		"ID":11,
+		"position":{"x": 1770,"y": 1920}
+	}
+	],
+	
+	"InteractiveObject":[
+	{
+		"position":{"x": 170,"y": 200},
+		"size":{"x": 40,"y": 40},
+		"firstState":"Sunduk_Close",
+		"secondState":"Sunduk_Opened",
+		"script":"createItem POS(170, 200) random(0, 11);",
+		"nameSound":"sunduk"
+	},{
+		"position":{"x": 230,"y": 200},
+		"size":{"x": 40,"y": 40},
+		"firstState":"Sunduk_Close",
+		"secondState":"Sunduk_Opened",
+		"script":"createItem POS(170, 200) random(0, 11);",
+		"nameSound":"sunduk"
+	},{
+		"position":{"x": 280,"y": 200},
+		"size":{"x": 40,"y": 40},
+		"firstState":"Sunduk_Close",
+		"secondState":"Sunduk_Opened",
+		"script":"createItem POS(230, 200) random(0, 11);",
+		"nameSound":"sunduk"
+	},{
+		"position":{"x": 330,"y": 200},
+		"size":{"x": 40,"y": 40},
+		"firstState":"Sunduk_Close",
+		"secondState":"Sunduk_Opened",
+		"script":"createItem POS(330, 200) random(0, 11);",
+		"nameSound":"sunduk"
+	},{
+		"position":{"x": 380,"y": 200},
+		"size":{"x": 40,"y": 40},
+		"firstState":"Sunduk_Close",
+		"secondState":"Sunduk_Opened",
+		"script":"createItem POS(380, 200) random(0, 11);",
+		"nameSound":"sunduk"
+	},{
+		"position":{"x": 430,"y": 200},
+		"size":{"x": 40,"y": 40},
+		"firstState":"Sunduk_Close",
+		"secondState":"Sunduk_Opened",
+		"script":"createItem POS(430, 200) random(0, 11);",
+		"nameSound":"sunduk"
+	},{
+		"position":{"x": 480,"y": 200},
+		"size":{"x": 40,"y": 40},
+		"firstState":"Sunduk_Close",
+		"secondState":"Sunduk_Opened",
+		"script":"createItem POS(380, 200) random(0, 11);",
+		"nameSound":"sunduk"
+	}
+	,{
+		"position":{"x": 1840,"y": 1080},
+		"size":{"x": 40,"y": 40},
+		"firstState":"Sunduk_Close",
+		"secondState":"Sunduk_Opened",
+		"script":"createItem POS(380, 200) random(0, 11);",
+		"nameSound":"sunduk"
+	}
+	]
+}

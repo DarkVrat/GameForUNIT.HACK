@@ -1,0 +1,75 @@
+{
+	"sound" : [
+	{
+		"name" : "sword",
+		"path" : "res/Audio/Effect/sword.wav"
+	},{
+		"name" : "UIButton",
+		"path" : "res/Audio/Effect/UIButton.wav"
+	},{
+		"name" : "musicBackground",
+		"path" : "res/Audio/Music/musicBackground.wav"
+	},{
+		"name" : "fireball",
+		"path" : "res/Audio/Effect/fireball.wav"
+	},{
+		"name" : "knife",
+		"path" : "res/Audio/Effect/knife.wav"
+	},{
+		"name" : "hammer",
+		"path" : "res/Audio/Effect/hummer.wav"
+	},{
+		"name" : "sunduk",
+		"path" : "res/Audio/Effect/sunduk.wav"
+	},{
+		"name" : "mainThema",
+		"path" : "res/Audio/Music/Main.wav"
+	},{
+		"name" : "cavesAndBoss",
+		"path" : "res/Audio/Music/cavesAndBoss.wav"
+	}
+	],
+	
+	"sampleSourse" : [
+	{
+		"nameSample":"default",
+		
+		"AlPitch" : 1.0,
+		"AlMaxDistance" : 5.0,
+		"AlRolloffFactor" : 1.0,
+		"AlReferenceDistance" : 1.0,
+		"AlMinGain" : 0.0,
+		"AlMaxGain" : 1.0,
+		"AlGainOutCone" : 0.0,
+		"AlAngleInCone" : 360.0,
+		"AlAngleOutCone" : 360.0,
+		"GainString":"default"
+	},{
+		"nameSample":"UI",
+		
+		"AlPitch" : 1.0,
+		"AlMaxDistance" : 5.0,
+		"AlRolloffFactor" : 1.0,
+		"AlReferenceDistance" : 1.0,
+		"AlMinGain" : 0.0,
+		"AlMaxGain" : 1.0,
+		"AlGainOutCone" : 0.0,
+		"AlAngleInCone" : 360.0,
+		"AlAngleOutCone" : 360.0,
+		"GainString":"UI"
+	},{
+		"nameSample":"Music",
+		
+		"AlPitch" : 1.0,
+		"AlMaxDistance" : 5.0,
+		"AlRolloffFactor" : 1.0,
+		"AlReferenceDistance" : 1.0,
+		"AlMinGain" : 0.0,
+		"AlMaxGain" : 1.0,
+		"AlGainOutCone" : 0.0,
+		"AlAngleInCone" : 360.0,
+		"AlAngleOutCone" : 360.0,
+		"GainString":"Music"
+	}
+	]
+}

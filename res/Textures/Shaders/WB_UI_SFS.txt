@@ -1,0 +1,12 @@
+//With Blend
+//User Interface Shader
+//Fragment Shader
+#version 460
+in vec2 texCoord;
+out vec4 flag_color;
+
+uniform sampler2D tex;
+
+void main() {
+	flag_color=texture(tex,texCoord);
+}

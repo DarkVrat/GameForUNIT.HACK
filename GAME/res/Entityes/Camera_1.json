@@ -1,0 +1,8 @@
+{
+	"RectangleFollowing":{"x": 0.02,"y": 0.02},
+	"baseSpeed": 0.08,
+	"distanceSpeed":0.3,
+	"sizeCamera" : 600.0,
+	"stepSize":50.0,
+	"minMaxSize":{"min": 500,"max": 700}
+}

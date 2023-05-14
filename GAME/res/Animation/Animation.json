@@ -1,0 +1,559 @@
+{
+	"StateAnimation" : [
+		{
+			"nameState":"background",
+			"uninterrupted":true,
+			"nextState":"background",
+			"sources":[
+				"background"
+			],
+			"frames":[
+				{
+					"sprite":"backAnimation_1",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_2",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_3",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_4",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_5",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_6",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_7",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_8",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_9",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_10",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_11",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_12",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_13",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_14",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_15",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_16",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_17",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_18",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_19",
+					"duration":0.15
+				},{
+					"sprite":"backAnimation_20",
+					"duration":0.15
+				}
+			]
+		},{
+			"nameState":"Main_Walk_left",
+			"uninterrupted":false,
+			"nextState":"Main_Walk_left",
+			"sources":[
+				"Main_Walk_left",
+				"Main_Walk_right",
+				"Main_Idle_left",
+				"Main_Idle_right",
+				"Main_Magic_left",
+				"Main_Magic_right",
+				"Main_Attack_left",
+				"Main_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Main_Walk_1_left", "duration":0.15
+				},{
+					"sprite":"Main_Walk_2_left", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Main_Walk_right",
+			"uninterrupted":false,
+			"nextState":"Main_Walk_right",
+			"sources":[
+				"Main_Walk_left",
+				"Main_Walk_right",
+				"Main_Idle_left",
+				"Main_Idle_right",
+				"Main_Magic_left",
+				"Main_Magic_right",
+				"Main_Attack_left",
+				"Main_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Main_Walk_1_right", "duration":0.15
+				},{
+					"sprite":"Main_Walk_2_right", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Main_Idle_left",
+			"uninterrupted":false,
+			"nextState":"Main_Idle_left",
+			"sources":[
+				"Main_Walk_left",
+				"Main_Walk_right",
+				"Main_Idle_left",
+				"Main_Idle_right",
+				"Main_Magic_left",
+				"Main_Magic_right",
+				"Main_Attack_left",
+				"Main_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Main_Idle_left", "duration":1
+				}
+			]
+		},{
+			"nameState":"Main_Idle_right",
+			"uninterrupted":false,
+			"nextState":"Main_Idle_right",
+			"sources":[
+				"Main_Walk_left",
+				"Main_Walk_right",
+				"Main_Idle_left",
+				"Main_Idle_right",
+				"Main_Magic_left",
+				"Main_Magic_right",
+				"Main_Attack_left",
+				"Main_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Main_Idle_right", "duration":1
+				}
+			]
+		},{
+			"nameState":"Main_Magic_left",
+			"uninterrupted":true,
+			"nextState":"Main_Idle_left",
+			"sources":[
+				"Main_Walk_left",
+				"Main_Walk_right",
+				"Main_Idle_left",
+				"Main_Idle_right",
+				"Main_Magic_left",
+				"Main_Magic_right",
+				"Main_Attack_left",
+				"Main_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Main_Magic_1_left", "duration":0.15
+				},{
+					"sprite":"Main_Magic_2_left", "duration":0.15
+				},{
+					"sprite":"Main_Magic_3_left", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Main_Magic_right",
+			"uninterrupted":true,
+			"nextState":"Main_Idle_right",
+			"sources":[
+				"Main_Walk_left",
+				"Main_Walk_right",
+				"Main_Idle_left",
+				"Main_Idle_right",
+				"Main_Magic_left",
+				"Main_Magic_right",
+				"Main_Attack_left",
+				"Main_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Main_Magic_1_right", "duration":0.15
+				},{
+					"sprite":"Main_Magic_2_right", "duration":0.15
+				},{
+					"sprite":"Main_Magic_3_right", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Main_Attack_left",
+			"uninterrupted":true,
+			"nextState":"Main_Idle_right",
+			"sources":[
+				"Main_Walk_left",
+				"Main_Walk_right",
+				"Main_Idle_left",
+				"Main_Idle_right",
+				"Main_Magic_left",
+				"Main_Magic_right",
+				"Main_Attack_left",
+				"Main_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Main_Attack_1_left", "duration":0.15
+				},{
+					"sprite":"Main_Attack_2_left", "duration":0.15
+				},{
+					"sprite":"Main_Attack_3_left", "duration":0.15
+				},{
+					"sprite":"Main_Attack_4_left", "duration":0.15
+				},{
+					"sprite":"Main_Attack_5_left", "duration":0.15
+				},{
+					"sprite":"Main_Attack_6_left", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Main_Attack_right",
+			"uninterrupted":true,
+			"nextState":"Main_Idle_right",
+			"sources":[
+				"Main_Walk_left",
+				"Main_Walk_right",
+				"Main_Idle_left",
+				"Main_Idle_right",
+				"Main_Magic_left",
+				"Main_Magic_right",
+				"Main_Attack_left",
+				"Main_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Main_Attack_1_right", "duration":0.15
+				},{
+					"sprite":"Main_Attack_2_right", "duration":0.15
+				},{
+					"sprite":"Main_Attack_3_right", "duration":0.15
+				},{
+					"sprite":"Main_Attack_4_right", "duration":0.15
+				},{
+					"sprite":"Main_Attack_5_right", "duration":0.15
+				},{
+					"sprite":"Main_Attack_6_right", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Enemy_Walk_left",
+			"uninterrupted":false,
+			"nextState":"Enemy_Walk_left",
+			"sources":[
+				"Enemy_Walk_left",
+				"Enemy_Walk_right",
+				"Enemy_Idle_left",
+				"Enemy_Idle_right",
+				"Enemy_Magic_left",
+				"Enemy_Magic_right",
+				"Enemy_Attack_left",
+				"Enemy_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Enemy_Walk_1_left", "duration":0.15
+				},{
+					"sprite":"Enemy_Walk_2_left", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Enemy_Walk_right",
+			"uninterrupted":false,
+			"nextState":"Enemy_Walk_right",
+			"sources":[
+				"Enemy_Walk_left",
+				"Enemy_Walk_right",
+				"Enemy_Idle_left",
+				"Enemy_Idle_right",
+				"Enemy_Magic_left",
+				"Enemy_Magic_right",
+				"Enemy_Attack_left",
+				"Enemy_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Enemy_Walk_1_right", "duration":0.15
+				},{
+					"sprite":"Enemy_Walk_2_right", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Enemy_Idle_left",
+			"uninterrupted":false,
+			"nextState":"Enemy_Idle_left",
+			"sources":[
+				"Enemy_Walk_left",
+				"Enemy_Walk_right",
+				"Enemy_Idle_left",
+				"Enemy_Idle_right",
+				"Enemy_Magic_left",
+				"Enemy_Magic_right",
+				"Enemy_Attack_left",
+				"Enemy_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Enemy_Idle_left", "duration":0.5
+				}
+			]
+		},{
+			"nameState":"Enemy_Idle_right",
+			"uninterrupted":false,
+			"nextState":"Enemy_Idle_right",
+			"sources":[
+				"Enemy_Walk_left",
+				"Enemy_Walk_right",
+				"Enemy_Idle_left",
+				"Enemy_Idle_right",
+				"Enemy_Magic_left",
+				"Enemy_Magic_right",
+				"Enemy_Attack_left",
+				"Enemy_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Enemy_Idle_right", "duration":0.5
+				}
+			]
+		},{
+			"nameState":"Enemy_Magic_left",
+			"uninterrupted":true,
+			"nextState":"Enemy_Idle_left",
+			"sources":[
+				"Enemy_Walk_left",
+				"Enemy_Walk_right",
+				"Enemy_Idle_left",
+				"Enemy_Idle_right",
+				"Enemy_Magic_left",
+				"Enemy_Magic_right",
+				"Enemy_Attack_left",
+				"Enemy_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Enemy_Magic_1_left", "duration":0.15
+				},{
+					"sprite":"Enemy_Magic_2_left", "duration":0.15
+				},{
+					"sprite":"Enemy_Magic_3_left", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Enemy_Magic_right",
+			"uninterrupted":true,
+			"nextState":"Enemy_Idle_right",
+			"sources":[
+				"Enemy_Walk_left",
+				"Enemy_Walk_right",
+				"Enemy_Idle_left",
+				"Enemy_Idle_right",
+				"Enemy_Magic_left",
+				"Enemy_Magic_right",
+				"Enemy_Attack_left",
+				"Enemy_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Enemy_Magic_1_right", "duration":0.15
+				},{
+					"sprite":"Enemy_Magic_2_right", "duration":0.15
+				},{
+					"sprite":"Enemy_Magic_3_right", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Enemy_Attack_left",
+			"uninterrupted":true,
+			"nextState":"Enemy_Idle_right",
+			"sources":[
+				"Enemy_Walk_left",
+				"Enemy_Walk_right",
+				"Enemy_Idle_left",
+				"Enemy_Idle_right",
+				"Enemy_Magic_left",
+				"Enemy_Magic_right",
+				"Enemy_Attack_left",
+				"Enemy_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Enemy_Attack_1_left", "duration":0.15
+				},{
+					"sprite":"Enemy_Attack_2_left", "duration":0.15
+				},{
+					"sprite":"Enemy_Attack_3_left", "duration":0.15
+				},{
+					"sprite":"Enemy_Attack_4_left", "duration":0.15
+				},{
+					"sprite":"Enemy_Attack_5_left", "duration":0.15
+				},{
+					"sprite":"Enemy_Attack_6_left", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Enemy_Attack_right",
+			"uninterrupted":true,
+			"nextState":"Enemy_Idle_right",
+			"sources":[
+				"Enemy_Walk_left",
+				"Enemy_Walk_right",
+				"Enemy_Idle_left",
+				"Enemy_Idle_right",
+				"Enemy_Magic_left",
+				"Enemy_Magic_right",
+				"Enemy_Attack_left",
+				"Enemy_Attack_right"
+			],
+			"frames":[
+				{
+					"sprite":"Enemy_Attack_1_right", "duration":0.15
+				},{
+					"sprite":"Enemy_Attack_2_right", "duration":0.15
+				},{
+					"sprite":"Enemy_Attack_3_right", "duration":0.15
+				},{
+					"sprite":"Enemy_Attack_4_right", "duration":0.15
+				},{
+					"sprite":"Enemy_Attack_5_right", "duration":0.15
+				},{
+					"sprite":"Enemy_Attack_6_right", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"FireBall",
+			"uninterrupted":true,
+			"nextState":"FireBall",
+			"sources":[
+				"FireBall"
+			],
+			"frames":[
+				{
+					"sprite":"FireBall_1", "duration":0.15
+				},{
+					"sprite":"FireBall_2", "duration":0.15
+				},{
+					"sprite":"FireBall_3", "duration":0.15
+				},{
+					"sprite":"FireBall_4", "duration":0.15
+				},{
+					"sprite":"FireBall_5", "duration":0.15
+				}
+			]
+		},{
+			"nameState":"Knife",
+			"uninterrupted":true,
+			"nextState":"Knife",
+			"sources":[
+				"Knife"
+			],
+			"frames":[
+				{
+					"sprite":"Knife_1", "duration":0.05
+				},{
+					"sprite":"Knife_2", "duration":0.05
+				},{
+					"sprite":"Knife_3", "duration":0.05
+				},{
+					"sprite":"Knife_4", "duration":0.05
+				}
+			]
+		},{
+			"nameState":"Ice",
+			"uninterrupted":true,
+			"nextState":"Ice",
+			"sources":[
+				"Ice"
+			],
+			"frames":[
+				{
+					"sprite":"Ice", "duration":1
+				}
+			]
+		},{
+			"nameState":"Hammer",
+			"uninterrupted":true,
+			"nextState":"Hammer",
+			"sources":[
+				"Hammer"
+			],
+			"frames":[
+				{
+					"sprite":"Hammer_1", "duration":0.05
+				},{
+					"sprite":"Hammer_2", "duration":0.05
+				},{
+					"sprite":"Hammer_3", "duration":0.05
+				},{
+					"sprite":"Hammer_4", "duration":0.05
+				},{
+					"sprite":"Hammer_5", "duration":0.05
+				}
+			]
+		},{
+			"nameState":"Sunduk_Close",
+			"uninterrupted":false,
+			"nextState":"Sunduk_Close",
+			"sources":[
+				"Sunduk_Close"
+			],
+			"frames":[
+				{
+					"sprite":"Sunduk_1", "duration":1
+				}
+			]
+		},{
+			"nameState":"Sunduk_Opened",
+			"uninterrupted":true,
+			"nextState":"Sunduk_open",
+			"sources":[
+				"Sunduk_Close"
+			],
+			"frames":[
+				{
+					"sprite":"Sunduk_1", "duration":0.05
+				},{
+					"sprite":"Sunduk_2", "duration":0.05
+				},{
+					"sprite":"Sunduk_3", "duration":0.05
+				},{
+					"sprite":"Sunduk_4", "duration":0.05
+				},{
+					"sprite":"Sunduk_5", "duration":0.05
+				}
+			]
+		},{
+			"nameState":"Sunduk_open",
+			"uninterrupted":true,
+			"nextState":"Sunduk_open",
+			"sources":[
+				"Sunduk_Opened"
+			],
+			"frames":[
+				{
+					"sprite":"Sunduk_5", "duration":1
+				},{
+					"sprite":"Sunduk_4", "duration":1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,372 @@
+{
+	"shaders":[
+		{
+			"name" : "NoBlend_UserInterface",
+			"filePath_v" : "res/Textures/Shaders/NB_UI_SVS.txt",
+			"filePath_f" : "res/Textures/Shaders/NB_UI_SFS.txt"
+		},{
+			"name" : "WithBlend_UserInterface",
+			"filePath_v" : "res/Textures/Shaders/WB_UI_SVS.txt",
+			"filePath_f" : "res/Textures/Shaders/WB_UI_SFS.txt"
+		},{
+			"name" : "NoBlend_Camera",
+			"filePath_v" : "res/Textures/Shaders/NB_CAM_SVS.txt",
+			"filePath_f" : "res/Textures/Shaders/NB_CAM_SFS.txt"
+		}		
+	],
+	
+	"oneTexture":[
+	],
+	
+	"textureAtlasesCut" : [
+		{
+			"name" : "backAnimation",
+			"filePath" : "res/textures/backgroundAnimation.png",
+			"shader" : "NoBlend_UserInterface",
+			"heightSprite" : 360,
+			"widthSprite" : 640,
+			"sprites" :  [
+				"backAnimation_1",
+				"backAnimation_2",
+				"backAnimation_3",
+				"backAnimation_4",
+				"backAnimation_5",
+				"backAnimation_6",
+				"backAnimation_7",
+				"backAnimation_8",
+				"backAnimation_9",
+				"backAnimation_10",
+				"backAnimation_11",
+				"backAnimation_12",
+				"backAnimation_13",
+				"backAnimation_14",
+				"backAnimation_15",
+				"backAnimation_16",
+				"backAnimation_17",
+				"backAnimation_18",
+				"backAnimation_19",
+				"backAnimation_20"
+			]
+		},{
+			"name" : "AnimationEntity",
+			"filePath" : "res/textures/AnimationEntity.png",
+			"shader" : "NoBlend_Camera",
+			"heightSprite" : 46,
+			"widthSprite" : 34,
+			"sprites" :  [
+				"Main_Walk_1_left",
+				"Main_Walk_2_left",
+				"Main_Walk_2_right",
+				"Main_Walk_1_right",
+				"Main_Idle_left",
+				"Main_Idle_right",
+				"Main_Magic_1_left",
+				"Main_Magic_2_left",
+				"Main_Magic_3_left",
+				"Main_Magic_3_right",
+				"Main_Magic_2_right",
+				"Main_Magic_1_right",
+				"Main_Attack_1_left",
+				"Main_Attack_2_left",
+				"Main_Attack_3_left",
+				"Main_Attack_4_left",
+				"Main_Attack_5_left",
+				"Main_Attack_6_left",
+				"Main_Attack_6_right",
+				"Main_Attack_5_right",
+				"Main_Attack_4_right",
+				"Main_Attack_3_right",
+				"Main_Attack_2_right",
+				"Main_Attack_1_right",
+				
+				"Enemy_Walk_1_left",
+				"Enemy_Walk_2_left",
+				"Enemy_Walk_2_right",
+				"Enemy_Walk_1_right",
+				"Enemy_Idle_left",
+				"Enemy_Idle_right",
+				"Enemy_Magic_1_left",
+				"Enemy_Magic_2_left",
+				"Enemy_Magic_3_left",
+				"Enemy_Magic_3_right",
+				"Enemy_Magic_2_right",
+				"Enemy_Magic_1_right",
+				"Enemy_Attack_1_left",
+				"Enemy_Attack_2_left",
+				"Enemy_Attack_3_left",
+				"Enemy_Attack_4_left",
+				"Enemy_Attack_5_left",
+				"Enemy_Attack_6_left",
+				"Enemy_Attack_6_right",
+				"Enemy_Attack_5_right",
+				"Enemy_Attack_4_right",
+				"Enemy_Attack_3_right",
+				"Enemy_Attack_2_right",
+				"Enemy_Attack_1_right"
+			]
+		},{
+			"name" : "Projectiles",
+			"filePath" : "res/textures/Projectiles.png",
+			"shader" : "NoBlend_Camera",
+			"heightSprite" : 32,
+			"widthSprite" : 32,
+			"sprites" :  [
+				"FireBall_1",
+				"FireBall_2",
+				"FireBall_3",
+				"FireBall_4",
+				"FireBall_5",
+				"Knife_1",
+				"Knife_2",
+				"Knife_3",
+				"Knife_4",
+				"Ice",
+				"Hammer_1",
+				"Hammer_2",
+				"Hammer_3",
+				"Hammer_4",
+				"Hammer_5"
+			]
+		},{
+			"name" : "Sunduk",
+			"filePath" : "res/textures/sunduk.png",
+			"shader" : "NoBlend_Camera",
+			"heightSprite" : 32,
+			"widthSprite" : 32,
+			"sprites" :  [
+				"Sunduk_1",
+				"Sunduk_2",
+				"Sunduk_3",
+				"Sunduk_4",
+				"Sunduk_5"
+			]
+		},{
+			"name" : "Potion",
+			"filePath" : "res/textures/potion.png",
+			"shader" : "NoBlend_Camera",
+			"heightSprite" : 32,
+			"widthSprite" : 32,
+			"sprites" :  [
+				"Potion_1",
+				"Potion_2",
+				"Potion_3",
+				"Potion_4",
+				"Potion_5",
+				"Potion_6",
+				"Potion_7",
+				"Potion_8",
+				"Potion_9",
+				"Potion_10",
+				"Potion_11",
+				"Potion_12"
+			]
+		}
+	],
+	
+	"textureAtlases" : [
+		{
+			"name" : "UI",
+			"filePath" : "res/Textures/UI.png",
+			"shader" : "NoBlend_UserInterface",
+			"sprites" :  [
+			{
+				"name":"Button_Off",
+				"left":0,
+				"bottom":60,
+				"width" : 160,
+				"height" : 40
+			},{
+				"name":"Button_On",
+				"left":0,
+				"bottom":20,
+				"width" : 160,
+				"height" : 40
+			},{
+				"name":"Arrow_Off",
+				"left":0,
+				"bottom":0,
+				"width" : 20,
+				"height" : 20
+			},{
+				"name":"Arrow_On",
+				"left":20,
+				"bottom":0,
+				"width" : 20,
+				"height" : 20
+			},{
+				"name":"Slider_Off",
+				"left":40,
+				"bottom":0,
+				"width" : 20,
+				"height" : 20
+			},{
+				"name":"Slider_On",
+				"left":60,
+				"bottom":0,
+				"width" : 20,
+				"height" : 20
+			},{
+				"name":"Slider_Background_Vertical",
+				"left":0,
+				"bottom":100,
+				"width" : 160,
+				"height" : 20
+			},{
+				"name":"Slider_Background_Horizontal",
+				"left":160,
+				"bottom":0,
+				"width" : 20,
+				"height" : 120
+			},{
+				"name":"False_Off",
+				"left":80,
+				"bottom":0,
+				"width" : 20,
+				"height" : 20
+			},{
+				"name":"False_On",
+				"left":100,
+				"bottom":0,
+				"width" : 20,
+				"height" : 20
+			},{
+				"name":"True_Off",
+				"left":120,
+				"bottom":0,
+				"width" : 20,
+				"height" : 20
+			},{
+				"name":"True_On",
+				"left":140,
+				"bottom":0,
+				"width" : 20,
+				"height" : 20
+			},{
+				"name":"logo",
+				"left":0,
+				"bottom":121,
+				"width" : 180,
+				"height" : 80
+			}
+			]
+		},{
+			"name" : "UIWithBlend",
+			"filePath" : "res/Textures/UIWithBlend.png",
+			"shader" : "WithBlend_UserInterface",
+			"sprites" :  [
+			{
+				"name":"backLine",
+				"left":0,
+				"bottom":0,
+				"width" : 160,
+				"height" : 20
+			},{
+				"name":"darkForBackground",
+				"left":0,
+				"bottom":21,
+				"width" : 640,
+				"height" : 360
+			}
+			]
+		},{
+			"name" : "entity",
+			"filePath" : "res/textures/entity.png",
+			"shader" : "NoBlend_Camera",
+			"sprites" :  [
+			{
+				"name":"circle",
+				"left":0,
+				"bottom":33,
+				"width" : 32,
+				"height" : 32
+			},{
+				"name":"rectangle",
+				"left":0,
+				"bottom":0,
+				"width" : 32,
+				"height" : 32
+			},{
+				"name":"redParticle",
+				"left":33,
+				"bottom":0,
+				"width" : 16,
+				"height" : 16
+			},{
+				"name":"greenParticle",
+				"left":33,
+				"bottom":17,
+				"width" : 16,
+				"height" : 16
+			},{
+				"name":"blueParticle",
+				"left":33,
+				"bottom":34,
+				"width" : 8,
+				"height" : 16
+			},{
+				"name":"blackParticle",
+				"left":33,
+				"bottom":51,
+				"width" : 16,
+				"height" : 16
+			}
+			]
+		},{
+			"name" : "ProjectileUI",
+			"filePath" : "res/textures/Projectiles.png",
+			"shader" : "NoBlend_UserInterface",
+			"sprites" :  [
+			{
+				"name":"projectile_0",
+				"left":0,
+				"bottom":64,
+				"width" : 32,
+				"height" : 32
+			},{
+				"name":"projectile_1",
+				"left":96,
+				"bottom":32,
+				"width" : 32,
+				"height" : 32
+			},{
+				"name":"projectile_2",
+				"left":128,
+				"bottom":32,
+				"width" : 32,
+				"height" : 32
+			},{
+				"name":"projectile_3",
+				"left":32,
+				"bottom":0,
+				"width" : 32,
+				"height" : 32
+			}
+			]
+		},{
+			"name" : "UIForGame",
+			"filePath" : "res/textures/UIForGame.png",
+			"shader" : "NoBlend_UserInterface",
+			"sprites" :  [
+			{
+				"name":"HUD",
+				"left":0,
+				"bottom":0,
+				"width" : 128,
+				"height" : 64
+			},{
+				"name":"mana",
+				"left":129,
+				"bottom":1,
+				"width" : 11,
+				"height" : 30
+			},{
+				"name":"healt",
+				"left":129,
+				"bottom":33,
+				"width" : 11,
+				"height" : 31
+			}
+			] 
+		}
+	]
+}

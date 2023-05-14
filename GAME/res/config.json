@@ -1,0 +1,31 @@
+{
+	"window size":{
+		"width" : 1600,
+		"height" : 900 
+	},
+	
+	"full screen" : false,
+	
+	"VSync":false,
+	
+	"display" : 0,
+	
+	"samples":2,
+	
+	"volume" : 0.1,
+	
+	"volumeSample":[
+		{
+			"name":"default",
+			"volume":1.0
+		},{
+			"name":"UI",
+			"volume":1.0
+		},{
+			"name":"Music",
+			"volume":1.0
+		}
+	],
+	
+	"language":"RU"
+}

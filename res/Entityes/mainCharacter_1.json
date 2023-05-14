@@ -1,0 +1,9 @@
+{
+	"type": 0,
+	"sizeCollision":{"x": 16,"y": 28},
+	"size":{"x": 34,"y": 46},
+	"speed":256,
+	"healt":100,
+	"mana":100,
+	"startProjectile":1
+}
